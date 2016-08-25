@@ -3,7 +3,7 @@ import pygtk
 import gtk
 
 os.system("screencapture screen.png")
-# os.system("brightness 0")
+os.system("brightness 0")
 
 win = gtk.Window()
 
